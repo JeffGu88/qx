@@ -1,4 +1,4 @@
-#适用于quantumultX代理服务器不支持UDP模式添加
+#适用于quantumultX代理服务器不支持UDP模式添加，默认direct
 IP-CIDR, 3.0.163.78/32, direct
 IP-CIDR, 35.178.208.187/32, direct
 IP-CIDR, 45.255.124.104/32, direct
@@ -18,3 +18,4 @@ IP-CIDR, 164.52.102.77/32, direct
 IP-CIDR, 164.52.102.91/32, direct
 IP-CIDR, 199.190.44.36/32, direct
 IP-CIDR, 199.190.44.37/32, direct
+ip-cidr, 52.194.158.59/32, direct
