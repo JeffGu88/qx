@@ -1,3 +1,4 @@
+#仅IP规则，另需添加域名规则使用
 #适用于quantumultX代理服务器不支持udp-relay添加，默认direct
 #支持udp-relay的也需添加，默认direct,可自行修改策略偏好
 
