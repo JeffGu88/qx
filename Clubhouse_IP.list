@@ -13,7 +13,10 @@
 #IP规则
 ;https://raw.githubusercontent.com/tengyuankoo/qx/main/Clubhouse_IP.list, tag=Clubhouse_IP, force-policy=direct, update-interval=86400, opt-parser=false, enabled=true
 
-
+HOST, ap-oversea-tls.agora.io, direct
+HOST, ap-oversea.agora.io, direct
+HOST, ap-oversea2.agora.io, direct
+HOST, report-oversea.agora.io, direct
 IP-CIDR, 3.0.163.78/32, direct
 IP-CIDR, 13.230.60.35/32, direct
 IP-CIDR, 23.248.191.103/32, direct
