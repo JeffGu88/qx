@@ -13,7 +13,8 @@
 #IP规则
 ;https://raw.githubusercontent.com/tengyuankoo/qx/main/Clubhouse_IP.list, tag=Clubhouse_IP, force-policy=direct, update-interval=86400, opt-parser=false, enabled=true
 
-
+HOST, ap-oversea2.agora.io, direct
+HOST, report-oversea.agora.io, direct
 IP-CIDR, 3.0.163.78/32, direct
 IP-CIDR, 13.230.60.35/32, direct
 IP-CIDR, 23.248.191.103/32, direct
@@ -42,6 +43,7 @@ IP-CIDR, 103.65.41.169/32, direct
 IP-CIDR, 103.98.18.181/32, direct
 IP-CIDR, 103.98.18.183/32, direct
 IP-CIDR, 103.98.18.184/32, direct
+IP-CIDR, 103.98.18.189/32, direct
 IP-CIDR, 120.227.115.126/32, direct
 IP-CIDR, 129.227.115.130/32, direct
 IP-CIDR, 148.153.172.73/32, direct
@@ -56,6 +58,7 @@ IP-CIDR, 164.52.6.23/32, direct
 IP-CIDR, 164.52.6.24/32, direct
 IP-CIDR, 164.52.6.25/32, direct
 IP-CIDR, 164.52.32.57/32, direct
+IP-CIDR, 164.52.32.59/32, direct
 IP-CIDR, 164.52.36.228/32, direct
 IP-CIDR, 164.52.36.232/32, direct
 IP-CIDR, 164.52.36.238/32, direct
