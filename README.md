@@ -1,7 +1,9 @@
 clubhouse自用规则
 
 两条规则需同时添加搭配使用
+
 Clubhouse.list解决无法使用问题
+
 Clubhouse_IP.list解决进入Room没有声音问题
 
 
