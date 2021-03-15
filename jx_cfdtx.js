@@ -2,26 +2,27 @@
 *
   Name:财富岛提现
   Address: 京喜App ====>>>> 全民赚大钱
-  Author：MoPoQAQ
-  Update: 2021/2/9 15:43
-  获取Token方式：
-  打开【❗️京喜农场❗️】，手动任意完成<工厂任务>、<签到任务>、<金牌厂长任务>一项，提示获取cookie成功即可，然后退出跑任务脚本
+
  * 获取京喜tokens方式
  * 打开京喜农场，手动完成任意任务，必须完成任务领到水滴，提示获取cookie成功
  * 打开京喜工厂，收取电力，提示获取cookie成功
  * 打开京喜财富岛，手动成功提现一次，提示获取cookie成功
  * 手动任意完成，提示获取cookie成功即可，然后退出跑任务脚本
+
   hostname = wq.jd.com, m.jingxi.com
+
   # quanx
   [rewrite_local]
   ^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask url script-request-header https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
   ^https\:\/\/m\.jingxi\.com\/dreamfactory\/generator\/CollectCurrentElectricity url script-request-header https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
   ^https\:\/\/m\.jingxi\.com\/jxcfd\/consume\/CashOut url script-request-header https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
+
   # loon
   [Script]
   http-request ^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js, requires-body=false, timeout=10, tag=京喜token
   http-request ^https\:\/\/m\.jingxi\.com\/dreamfactory\/generator\/CollectCurrentElectricity script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js, requires-body=false, timeout=10, tag=京喜token
   http-request ^^https\:\/\/m\.jingxi\.com\/jxcfd\/consume\/CashOut script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js, requires-body=false, timeout=10, tag=京喜token
+
   # surge
   [Script]
   京喜token = type=http-request,pattern=^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
@@ -129,7 +130,7 @@ function getTokens() {
       $.tokenArr.push(jdTokenNode[item] ? JSON.parse(jdTokenNode[item]) : '{}');
     })
   } else {
-    $.tokenArr = [JSON.parse($.getdata('jxnc_token1') || '{}'), JSON.parse($.getdata('jxnc_token2') || '{}')];
+    $.tokenArr = JSON.parse($.getdata('jx_tokens') || '[]');
   }
   if (!$.tokenArr[0]) {
     $.msg(
