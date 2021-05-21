@@ -17,7 +17,7 @@ DOMAIN-SUFFIX,clubhouseapi.com,Clubhouse
 DOMAIN-SUFFIX,joinclubhouse.com,Clubhouse
 DOMAIN,clubhouseprod.s3.amazonaws.com,Clubhouse
 DOMAIN,clubhouse.pubnub.com,Clubhouse
-HOST, ap-oversea-tls.agora.io, direct
-HOST, ap-oversea.agora.io, direct
-HOST, ap-oversea2.agora.io, direct
-HOST, report-oversea.agora.io, direct
+HOST, ap-oversea-tls.agora.io, Clubhouse
+HOST, ap-oversea.agora.io, Clubhouse
+HOST, ap-oversea2.agora.io, Clubhouse
+HOST, report-oversea.agora.io, Clubhouse
