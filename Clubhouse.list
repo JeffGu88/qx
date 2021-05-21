@@ -12,7 +12,7 @@
 #IP规则
 ;https://raw.githubusercontent.com/tengyuankoo/qx/main/Clubhouse_IP.list, tag=Clubhouse_IP, force-policy=direct, update-interval=86400, opt-parser=false, enabled=true
 
-
+DOMAIN-SUFFIX,clubhouse.com,Clubhouse
 DOMAIN-SUFFIX,clubhouseapi.com,Clubhouse
 DOMAIN-SUFFIX,joinclubhouse.com,Clubhouse
 DOMAIN,clubhouseprod.s3.amazonaws.com,Clubhouse
