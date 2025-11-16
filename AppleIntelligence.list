@@ -1,0 +1,7 @@
+host, gateway.icloud.com
+host, apple-relay.apple.com
+host, apple-relay.fastly-edge.com
+host, apple-relay.cloudflare.com
+host, guzzoni.apple.com
+host, cp4.cloudflare.com
+host, gspe1-ssl.ls.apple.com
