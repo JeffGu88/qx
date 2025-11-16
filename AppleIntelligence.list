@@ -6,3 +6,4 @@ host, guzzoni.apple.com
 host, cp4.cloudflare.com
 host, gspe1-ssl.ls.apple.com
 ;host, apps.mzstatic.com
+;host-wildcard, *.smoot.apple.com
