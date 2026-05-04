@@ -5,5 +5,8 @@ host, apple-relay.cloudflare.com
 host, guzzoni.apple.com
 host, cp4.cloudflare.com
 host, gspe1-ssl.ls.apple.com
+host, smoot.apple.com
+host, apple-relay.akamaized.net
+host, apple-relay.mask.apple-dns.net
 ;host, apps.mzstatic.com
 ;host-wildcard, *.smoot.apple.com
