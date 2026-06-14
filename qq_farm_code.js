@@ -1,17 +1,4 @@
-/*
-[Script]
-# 拦截微信农场获取 code 的请求
-# 请将此脚本配置为 http-response 或 http-request，
-# 在 MITM 设置中确保开启 gate-obt.nqf.qq.com
-# QX 专用配置文件名: qq_farm_code.js
 
-# 下面的正则匹配：只要请求域名是 gate-obt.nqf.qq.com 且包含 code=
-[rewrite_local]
-^https:\/\/gate-obt\.nqf\.qq\.com\/prod\/ws url script-request-header qq_farm_code.js
-
-[mitm]
-hostname = gate-obt.nqf.qq.com
-*/
 
 const url = $request.url;
 
