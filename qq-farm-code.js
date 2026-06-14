@@ -17,7 +17,7 @@ if (url.includes("code=")) {
         
         // 注意：如果不发送请求，游戏登录会失败。
         // 如果想让游戏正常运行仅复制 code，请注释掉下面这行
-        // $done({response: {status: 404}}); 
+         $done({response: {status: 404}}); 
     }
 }
 
