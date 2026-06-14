@@ -1,9 +1,4 @@
 
-[rewrite_local]
-^https:\/\/gate-obt\.nqf\.qq\.com\/prod\/ws url script-request-header qq_farm_code.js
-
-[mitm]
-hostname = gate-obt.nqf.qq.com
 
 
 const url = $request.url;
